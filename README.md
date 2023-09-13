@@ -1,1 +1,1 @@
-# java-filmorate-er-diagram-misevra
+# Это ER-диаграмма для проекта Java-Filmorate
