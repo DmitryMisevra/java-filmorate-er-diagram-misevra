@@ -10,6 +10,7 @@
 7. _friendship_status_. Хранит статусы дружбы между пользователями и отражен в таблице friendship
 
 **Основные операции моего приложения:**
+
 Операции с пользователями:
 1. Добавить друга _(addFriend(Long id, Long friendId))_
 2. Удалить друга (removeFriend(Long id, Long friendId))
