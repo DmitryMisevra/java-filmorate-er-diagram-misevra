@@ -8,3 +8,15 @@
 5. _film-likes_. Хранит все лайки для всех фильмов
 6. _friendship_. хранит данные о дружеских связях между пользователями
 7. _friendship_status_. Хранит статусы дружбы между пользователями и отражен в таблице friendship
+
+**Основные операции моего приложения:**
+Операции с пользователями:
+1. Добавить друга _(addFriend(Long id, Long friendId))_
+2. Удалить друга (removeFriend(Long id, Long friendId))
+3. Вернуть список общих друзей с одним из пользователей _(findMutualFriends(Long id, Long friendId))_
+4. Добавить пользователя _(addUser(User user))_
+5. Обновить информацию о пользователе _(updateUser(User user))_
+6. Вернуть список всех пользователей _(findUsersList())_
+7. Вернуть список всех друзей _(findUserFriendList(Long id))_
+8. Найти пользователя по id _(findUserById(Long id))_
+
